@@ -20,7 +20,6 @@ Paper reading 01
 Scan context 是一种区别于传统的基于直方图或基于特征点的3D激光雷达描述子，主要用途是做激光重定位和回环检测，它会对一帧点云以激光为中心进行点云分块，首先在半径方向将点云分为若干个等距的圆环（黄色部分），再在水平方向将点云分成等圆心角的扇形（青色部分）（原始论文中分了20个圆环和60个扇形），则每一个圆环与扇形的重叠部分（黑色部分）就是一个分好的区域（bin），计算每一个区域内Z值的最大值，该值即为该区域Scan context值（区域为空赋0值），将所有区域的Scan context值记录为一个矩阵，这个矩阵的行数等于扇形区域的数量，列数等于圆环的数量，将这个矩阵（单通道），用颜色表（jet colormap）表示出来，即可得到此帧点云的Scan context值。
 
 之后作者定义了一个公式来计算两帧点云Scan context描述子的位置相似度（实质是计算两帧点云所有列向量夹角余弦值的和），该值越小相似度越高。在计算位置相似度时计算量太大，通过将圆环编码为旋转不变的一维描述子ring key（一维数组，数组中每个元素为第i个圆环ring的编码值，ri排布距离由近到远），对数据进行压缩与降维，此后两个Scan context匹配时只对比ring key的相似度，不再计算余弦距离。同时，为ring key构建kd-tree加速查找候选相似帧。（在开源程序中使用了类似的sector key来对数据做降维和加速搜索）
-![paper01.png](https://github.com/haiyang2022/haiyang2022.github.io/blob/main/_posts/paper01.png)
 <img src="https://github.com/haiyang2022/haiyang2022.github.io/blob/main/_posts/paper01.png"/>
 ## Ⅲ 总结
 
