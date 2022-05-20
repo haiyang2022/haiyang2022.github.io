@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[论文阅读]Scan Context Egocentric Spatial Descriptor for Place Recognition within 3D Point Clouds Map'
-subtitle: ' '
+subtitle: 'Scan Context'
 date: 2022-05-20
 categories: true
 tags: paper scancontext
