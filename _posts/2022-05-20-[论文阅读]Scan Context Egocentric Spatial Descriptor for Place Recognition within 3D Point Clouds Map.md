@@ -1,3 +1,12 @@
+---
+layout: post
+title: '[论文阅读]Scan Context Egocentric Spatial Descriptor for Place Recognition within 3D Point Clouds Map'
+subtitle: 'paper 01'
+date: 2022-05-20
+categories: Paper
+tags: paper
+---
+
 Paper reading 01
 
 *[1] G. Kim and A. Kim, “Scan Context: Egocentric Spatial Descriptor for Place Recognition Within 3D Point Cloud Map,” in IEEE International Conference on Intelligent Robots and Systems, Dec. 2018, pp. 4802–4809. doi: 10.1109/IROS.2018.8593953.*
