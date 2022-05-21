@@ -1,35 +1,13 @@
-﻿---
+---
 layout: post
 title: '[工具资料]（转载）md math tutorial'
 subtitle: 'MARKDOWN公式手册'
 date: 2022-05-21
 categories: tools
 tags: markdown
-
-
 ---
-
-markdown
-
----
-<span style="float: left; display: contents;"><i class="icon-download-alt icon-1x"></i> Markdown 源文件下载</summary> / 链接未知</span><span style="float: right; display: block;">本文固定链接 https://ericp.cn/cmd</span>
 
 # Cmd Markdown 公式指导手册
-
-<p style="margin-top: 100px"> </p>
-
--  新增内容：[戴帽符号](#7戴帽符号)
--  修补内容：[如何输入一个交换图表](#1如何输入一个交换图表) / [在字符间加入空格](#3在字符间加入空格)<span style="float: right; display: block;"><i class="icon-edit icon-1x"></i> Ver. 2020-10-03</span>
-
----
-
-> 本文为 MathJax 在 [Cmd Markdown](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown) 环境下的常用语法指引。Cmd Markdown 编辑阅读器支持 $\LaTeX$ 编辑显示支持，例如：$\sum_{i=1}^n a_i=0$，访问 [MathJax](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) 以参考更多使用方法。
-
-> 右键点击每一个公式，选择 **[Show Math As] → [TeX Commands]** 以查看该公式的命令详情。
-
-[TOC]
-
----
 
 # 一、公式使用参考
 
