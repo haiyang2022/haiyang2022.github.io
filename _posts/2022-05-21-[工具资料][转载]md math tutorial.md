@@ -1,10 +1,11 @@
 ---
 layout: post
-title: '[工具资料]（转载）md math tutorial'
+title: '[工具资料][转载]md math tutorial'
 subtitle: 'MARKDOWN公式手册'
 date: 2022-05-21
 categories: tools
 tags: markdown
+
 ---
 
 # Cmd Markdown 公式指导手册
